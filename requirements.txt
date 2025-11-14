@@ -1,0 +1,22 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.1
+
+# PostgreSQL driver
+psycopg2==2.9.9
+
+# Pydantic y manejo de settings
+pydantic==2.7.4
+pydantic-settings==2.2.1
+
+# Azure OpenAI (nuevo SDK oficial, soporta GPT-4o-mini)
+openai==1.54.3
+httpx==0.27.2
+# JWT para tokens con FastAPI
+python-jose==3.3.0
+python-multipart==0.0.9
+
+# Cargar variables de entorno
+python-dotenv==1.0.1
+
+# Dependencia interna de FastAPI
+starlette==0.37.2

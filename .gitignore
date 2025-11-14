@@ -1,0 +1,79 @@
+# -------------------------
+# Entornos virtuales
+# -------------------------
+.venv/
+venv/
+ENV/
+env/
+
+# -------------------------
+# Archivos de Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# -------------------------
+# Configuración
+# -------------------------
+*.env
+*.env.*
+.env.local
+settings.local.json
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+log/
+logs/
+
+# -------------------------
+# Archivos temporales y caché
+# -------------------------
+*.tmp
+*.temp
+*.swp
+*.swo
+.cache/
+pytest_cache/
+coverage/
+htmlcov/
+
+# -------------------------
+# IDE / Editor
+# -------------------------
+.vscode/
+.idea/
+*.iml
+
+# -------------------------
+# Sistema operativo
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Distribuciones / builds
+# -------------------------
+dist/
+build/
+*.egg-info/
+
+# -------------------------
+# Archivos de datos innecesarios
+# -------------------------
+*.sqlite3
+*.db
+*.sql
+*.bak
+
+# -------------------------
+# Archivos generados para pruebas
+# -------------------------
+residuos_10_registros.txt
+residuos_2025_textil_del_valle.txt
+
