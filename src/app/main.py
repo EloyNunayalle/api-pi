@@ -30,7 +30,7 @@ def create_app() -> FastAPI:
     # -------------------------------------------------------------
     # Health Check
     # -------------------------------------------------------------
-    @app.get("/waste-api/health", tags=["Health"])
+    @app.api_route("/waste-api/health", methods=["GET", "HEAD"], tags=["Health"])
     async def health_check():
         """
         Verifica la conexión a PostgreSQL y estado del API.
